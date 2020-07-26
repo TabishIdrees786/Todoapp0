@@ -1,0 +1,51 @@
+body{
+    background-color: cornsilk;
+}
+
+.main{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+}
+.main1{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+}
+#item{
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    padding: 0;
+}
+button{
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    margin: 5px;
+}
+i{
+    margin: 5px;
+    color: rgb(99, 35, 35);
+}
+@media only screen and (max-width: 1100px) {
+    .main{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .main{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .main{
+        width: 90%;
+    }
+}
+ol{
+    text-align: justify;
+}
